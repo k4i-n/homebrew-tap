@@ -5,6 +5,12 @@ class EngineerHub < Formula
   sha256 "0c3513729885a3c12fadef43bc533a1a7cbe1ba698aafd0bf223bd46e16cd3de"
   license "Apache-2.0"
 
+  bottle do
+    root_url "https://github.com/k4i-n/homebrew-tap/releases/download/engineer-hub-0.1.2"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "2a5518a6e0ec1a21a68cb22b8dbf6899a51893ed9b38c4db78f5dac518c53185"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "13b4d39ee507258e733216d341e8249addec8c5051f610e4fb1a16795894665b"
+  end
+
   depends_on "node"
 
   def install
