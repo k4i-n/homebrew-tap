@@ -1,8 +1,8 @@
 class EngineerHub < Formula
   desc "Local work record for an engineer's tickets, read and written by coding agents"
   homepage "https://github.com/k4i-n/engineer-hub"
-  url "https://github.com/k4i-n/engineer-hub/archive/refs/tags/v0.1.3.tar.gz"
-  sha256 "f972096673551478cf4e4fab52604265b10cab1959c444194deed194021f6b18"
+  url "https://github.com/k4i-n/engineer-hub/archive/refs/tags/v0.1.4.tar.gz"
+  sha256 "6ded6c6f7956a456a38db2ab6fe2ed66f5ab3ef7e12ce0df0a935c37db5448f1"
   license "Apache-2.0"
 
   bottle do
