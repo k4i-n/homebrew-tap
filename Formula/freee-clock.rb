@@ -5,6 +5,11 @@ class FreeeClock < Formula
   sha256 "26e67b52f7c460c1002ae71c70d463b8d354916c56b2decbbed1b70d3d532e8c"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/k4i-n/homebrew-tap/releases/download/freee-clock-0.1.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "526fe172754c5e68002414c2b6cb07bea54ffd96365c81f02cf47c7a4ae3cc4d"
+  end
+
   depends_on macos: :monterey
 
   def install
