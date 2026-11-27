@@ -9,6 +9,7 @@ brew install k4i-n/tap/<formula>
 | Formula | What it is | After install |
 |---|---|---|
 | [engineer-hub](https://github.com/k4i-n/engineer-hub) | Engineering dashboard kept current by your coding agents | `brew services start engineer-hub` |
+| [freee-clock](https://github.com/k4i-n/freee-clock) | Menu bar app that clocks you in and out on freee HR (macOS) | `brew services start freee-clock` |
 
 ## Release a new version
 
